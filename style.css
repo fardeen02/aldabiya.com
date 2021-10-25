@@ -1,0 +1,355 @@
+header {
+  background-color: #42cac0;
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+#ul1 {
+  margin-left: -2.9rem;
+  width: 100%;
+}
+.li1 {
+  display: inline;
+  list-style-type: none;
+  padding: 0.9rem;
+  background-color: seagreen;
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  color: lightcoral;
+  background-color: greenyellow;
+}
+
+#ad {
+  margin-left: 25rem;
+  overflow: hidden;
+  letter-spacing: 0.1rem;
+  white-space: nowrap;
+  border-right: 0.1rem solid whitesmoke;
+  font-size: 4rem;
+  margin-top: 3rem;
+  animation: typing 7s steps(45, end), blink 0.5s step-end infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: whitesmoke;
+  }
+}
+
+#phg {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -1.8rem;
+}
+
+#seller {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#shopbtn {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border-radius: 15%;
+  border: 0.2rem solid seagreen;
+  background-color: #42cac0;
+}
+
+#shop {
+  color: green;
+}
+
+#shopbtn:hover {
+  transform: rotate(3deg);
+}
+
+img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+  height: 32%;
+}
+
+img:hover {
+  width: 32.5%;
+  height: 32.5%;
+}
+
+#ap {
+  font-size: 1.5rem;
+  text-align: center;
+  color: seagreen;
+}
+
+#inner_ap {
+  border: 0.2rem solid seagreen;
+  padding: 1rem;
+  padding: 0.6rem;
+  border-radius: 8%;
+  box-shadow: 0.1rem 0.1rem grey;
+}
+
+.trousers {
+  font-size: 1.5rem;
+  color: seagreen;
+  padding: 2rem;
+}
+
+#t1,
+#t2,
+#t3,
+#k1,
+#k2,
+#k3,
+#k4,
+#k5,
+#k6,
+#k7,
+#k8,
+#k9,
+#k10,
+#k11,
+#k12,
+#k13,
+#k14,
+#k15 {
+  width: 20%;
+  height: 20%;
+  border: 0.1rem solid seagreen;
+  padding: 1rem;
+  box-shadow: 0.5rem 0.5rem grey;
+}
+
+.inner_trousers {
+  border: 0.2rem solid seagreen;
+  padding: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem grey;
+}
+
+.tk {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  color: seagreen;
+}
+
+#about_info {
+  text-decoration: underline;
+  text-align: left;
+  font-size: 2.5rem;
+  color: seagreen;
+}
+
+#about {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 2rem 9rem 3rem 15rem;
+  color: whitesmoke;
+  background-color: #42cac0;
+}
+
+#contact {
+  text-decoration: underline;
+  text-align: left;
+  font-size: 2.5rem;
+  color: seagreen;
+}
+
+#contact_info {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 2rem 9rem 3rem 15rem;
+  color: seagreen;
+  background-color: #42cac0;
+}
+
+#contact_info a {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.foot {
+  font-size: 1.1rem;
+  background-color: seagreen;
+  padding: 0.8rem;
+  color: whitesmoke;
+  text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+  .li1 {
+    display: inline;
+    list-style-type: none;
+    padding: 0.7rem;
+    background-color: seagreen;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+
+  #ad {
+    margin-left: 1.2rem;
+    overflow: hidden;
+    letter-spacing: 0.08rem;
+    white-space: nowrap;
+    border-right: 0.1rem solid whitesmoke;
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    animation: typing 5s steps(45, end), blink 0.5s step-end infinite;
+    animation-iteration-count: infinite;
+    padding-bottom: 0.7rem;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 91%;
+    }
+  }
+
+  #phg {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -1.8rem;
+  }
+
+  #seller {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  #shopbtn {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border-radius: 15%;
+    border: 0.1rem solid seagreen;
+    background-color: #42cac0;
+  }
+
+  img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  #ap {
+    font-size: 1.15rem;
+    text-align: center;
+    color: seagreen;
+  }
+
+  #inner_ap {
+    border: 0.1rem solid seagreen;
+    padding: 0.7rem;
+    padding: 0.6rem;
+    border-radius: 8%;
+    box-shadow: 0.1rem 0.1rem grey;
+  }
+
+  .trousers {
+    font-size: 0.9rem;
+    color: seagreen;
+    padding: 1rem;
+  }
+
+  #t1,
+  #t2,
+  #t3,
+  #k1,
+  #k2,
+  #k3,
+  #k4,
+  #k5,
+  #k6,
+  #k7,
+  #k8,
+  #k9,
+  #k10,
+  #k11,
+  #k12,
+  #k13,
+  #k14,
+  #k15 {
+    width: 65%;
+    height: 65%;
+    border: 0.1rem solid seagreen;
+    padding: 1rem;
+    box-shadow: 0.5rem 0.5rem grey;
+  }
+  .inner_trousers {
+    border: 0.15rem solid seagreen;
+    padding: 0.25rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem grey;
+  }
+  .tk {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: seagreen;
+  }
+
+  #contact {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5rem;
+    color: seagreen;
+  }
+
+  #contact_info {
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 1rem 4.5rem 1rem 1rem;
+    color: seagreen;
+    background-color: #42cac0;
+  }
+
+  #about_info {
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5rem;
+    color: seagreen;
+  }
+
+  #about {
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 1rem 4.5rem 1rem 1rem;
+    color: whitesmoke;
+    background-color: #42cac0;
+  }
+}
